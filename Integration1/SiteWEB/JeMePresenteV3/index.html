@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Présentation</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="hiking.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+	
+        <ul class="topnav">
+            <li><a class="active" href="etudes.html">Études</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="loisirs.html">Loisirs</a></li>
+            <li class="right"><a href="reves.html">Rêves</a></li>
+        </ul>
+        <h1 id="presentation">Nous pouvons concevoir votre site web en un rien de temps!</h1>
+        <br/>
+        <img id="person" title="Nico Gélinas" href="https://www.w3schools.com" src="img/formation-continue.png" />
+        <p>A link with no underline: <a href="https://www.w3schools.com">W3Schools.com</a></p>
+        <h2>Nico Gélinas</h2>
+        <p>
+            Chaque projet terminé nous rend fiers et nous motive davantage pour le prochain défi, afin d’offrir une expérience client sans faille.
+        </p>
+        <br/>
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
