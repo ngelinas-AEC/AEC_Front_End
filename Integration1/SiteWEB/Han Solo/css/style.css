@@ -1,0 +1,84 @@
+/**
+Shany Carle
+Style.css
+**/
+
+body{
+    background-image: url("../img/etoileMort.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    width:1000px;
+    margin:auto;
+}
+
+h1 {
+    font-size: 140px;
+    color:yellow;
+    text-align: center;
+}
+
+h2, h3, h4{
+    font-size: 24px;
+    color:white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 44px;
+}
+
+p{
+    font-size: 16px;
+    color:white;
+    text-align: center;
+}
+
+a{
+    color : #80bdff;
+    text-decoration: none; /*Enlève le souligné */
+    text-align: center;
+}
+
+a:visited{
+    color : #005cbf;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+img{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin:auto;
+    display:block;
+ }
+
+img:hover{
+    box-shadow: 5px 10px #888888;
+}
+
+table, th, td {
+    border: 1px solid white;
+    color:white;
+    font-size: 24px;
+}
+ul{
+    text-align: center;
+}
+
+li{
+    color:white;
+    font-size: 24px;
+}
