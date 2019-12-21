@@ -11,10 +11,18 @@ body{
     margin:auto;
 }
 
+@font-face {
+    font-family: maPolice;
+    src: url("../font/Starjedi.ttf");
+}
+
 h1 {
     font-size: 140px;
     color:yellow;
     text-align: center;
+    font-family: maPolice;
+}
+
 }
 
 h2, h3, h4{
