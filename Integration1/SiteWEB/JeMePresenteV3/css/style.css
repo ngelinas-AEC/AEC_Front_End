@@ -14,7 +14,6 @@ body {
   overflow: scroll;
 }
 
-
 p {
 	font-size: 14px;
 }
@@ -67,6 +66,7 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
+/* mp4 */
 #myVideo {
   position: fixed;
   right: 0;
@@ -80,9 +80,9 @@ li a:hover:not(.active) {
   top: 0;
   color: #f1f1f1;
   width: 100%;
-  overflow: auto;
 }
 
+/* button */
 #myBtn {
   position: fixed;
   width: 200px;
@@ -99,6 +99,7 @@ li a:hover:not(.active) {
   color: black;
 }
 
+/* image */
 img {
 	border-radius: 30px;
 	display: block;
