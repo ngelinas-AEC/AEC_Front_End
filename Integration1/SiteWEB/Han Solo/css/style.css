@@ -69,16 +69,7 @@ img:hover{
     box-shadow: 5px 10px #888888;
 }
 
-table, th, td {
-    border: 1px solid white;
-    color:white;
-    font-size: 24px;
-}
-ul{
-    text-align: center;
+.film{
+    color:yellow;
 }
 
-li{
-    color:white;
-    font-size: 24px;
-}
