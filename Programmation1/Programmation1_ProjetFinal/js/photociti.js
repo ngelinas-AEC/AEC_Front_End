@@ -1,4 +1,4 @@
-/*  custom.js			*/
+/*  photociti.js		*/
 /*	Par Nico Gélinas	*/
 /*	Le 10 avril 2020	*/
 
