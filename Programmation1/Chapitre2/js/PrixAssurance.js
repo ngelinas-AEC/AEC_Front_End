@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>JavaScript Exercises SI</h2>
-
-<p id="Exercise IF"></p>
-
-<style>
-.vert {
-color:green;
-}
-.magenta {
-color:magenta;
-}
-</style>
-
-<script>
-    var sexe = prompt("Veuillez entrer votre sexe M ou F: "); 
+    var sexe = prompt("Veuillez entrer votre sexe M ou F: ");
 	var age = Number(prompt("Veuillez entrer votre age: "));
     var valeur = Number(prompt("Veuillez entrer valeur auto: "));
     var prime = 0;
@@ -45,7 +27,3 @@ color:magenta;
          document.write('sexe invalide!');
     }
 
-</script>
-
-</body>
-</html>

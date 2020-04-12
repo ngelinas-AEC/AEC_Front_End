@@ -1,0 +1,48 @@
+/*  style.css			*/
+/*	Par Nico Gélinas	*/
+/*	Le 10 avril 2020	*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+ul li{
+    margin: 0 auto;
+    padding: 0;
+    display: inline-flex;
+}
+
+ul{
+    padding: 0;
+}
+
+#photocitiMessage{
+    width: 80%;
+    display: inline;
+}
+
+.imageSelect{
+	border-style: dashed;
+	border-color: coral;
+	border-width: 5px;     
+    padding: .2rem;
+	display: flex;
+}
+
+.lettresCadre{
+   padding: 4em; 
+   display: flex;
+   justify-content: center;
+}
+
+.outputCadre{
+    background-image: url("../background/blanc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    color: black;
+    background-color: black;
+}

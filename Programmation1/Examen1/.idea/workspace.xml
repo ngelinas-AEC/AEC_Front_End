@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb244836-fedf-40b6-85d9-0377e5fe15af" name="Default" comment="" />
+    <list default="true" id="bbb51c48-4aea-4663-8fda-eddaffb0e5e2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,29 +13,22 @@
       <executable />
     </execution>
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="TechniquesProgrammationWeb1" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1SNY10pr1zcdzIxkKdfA4olTFg4" />
+  <component name="ProjectId" id="1UXMf1azCCNs97ZqjAjUk4Gd27y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,31 +42,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cb244836-fedf-40b6-85d9-0377e5fe15af" name="Default" comment="" />
-      <created>1571358810086</created>
+      <changelist id="bbb51c48-4aea-4663-8fda-eddaffb0e5e2" name="Default Changelist" comment="" />
+      <created>1575498585829</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571358810086</updated>
-      <workItem from="1571358811325" duration="2919000" />
-      <workItem from="1571405302661" duration="22000" />
-      <workItem from="1571955702137" duration="1295000" />
-      <workItem from="1575497930238" duration="629000" />
+      <updated>1575498585829</updated>
+      <workItem from="1575498586912" duration="427000" />
+      <workItem from="1576939151842" duration="10000" />
     </task>
     <servers />
   </component>
@@ -85,18 +65,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
-    </option>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
     </option>
   </component>
 </project>
