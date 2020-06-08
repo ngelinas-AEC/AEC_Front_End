@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import {Accueil} from '../Accueil/Accueil'
+
+import { Accueil } from '../PageAccueil';
 
 function App() {
-  return (
-    <Accueil />
-  );
+  return (<Accueil/>);
 }
 
 export default App;
