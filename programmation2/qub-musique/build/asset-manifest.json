@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.118d050c.chunk.css",
-    "main.js": "./static/js/main.4dcc7ae2.chunk.js",
-    "main.js.map": "./static/js/main.4dcc7ae2.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.045c429a.js",
-    "runtime-main.js.map": "./static/js/runtime-main.045c429a.js.map",
+    "main.css": "./static/css/main.27f190fb.chunk.css",
+    "main.js": "./static/js/main.0976c74a.chunk.js",
+    "main.js.map": "./static/js/main.0976c74a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.25374d25.js",
+    "runtime-main.js.map": "./static/js/runtime-main.25374d25.js.map",
     "static/css/2.af3c1da9.chunk.css": "./static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5650a305.chunk.js": "./static/js/2.5650a305.chunk.js",
-    "static/js/2.5650a305.chunk.js.map": "./static/js/2.5650a305.chunk.js.map",
+    "static/js/2.f36dc9fd.chunk.js": "./static/js/2.f36dc9fd.chunk.js",
+    "static/js/2.f36dc9fd.chunk.js.map": "./static/js/2.f36dc9fd.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.24f9fdb87b9997edbbcb91fce828a71a.js": "./precache-manifest.24f9fdb87b9997edbbcb91fce828a71a.js",
+    "precache-manifest.32f984749dac22a7ca102aecb7b42404.js": "./precache-manifest.32f984749dac22a7ca102aecb7b42404.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "./static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.118d050c.chunk.css.map": "./static/css/main.118d050c.chunk.css.map",
-    "static/js/2.5650a305.chunk.js.LICENSE.txt": "./static/js/2.5650a305.chunk.js.LICENSE.txt",
+    "static/css/main.27f190fb.chunk.css.map": "./static/css/main.27f190fb.chunk.css.map",
+    "static/js/2.f36dc9fd.chunk.js.LICENSE.txt": "./static/js/2.f36dc9fd.chunk.js.LICENSE.txt",
     "static/media/back.png": "./static/media/back.dd742369.png",
     "static/media/bisonnette1.jpg": "./static/media/bisonnette1.6ff79054.jpg",
     "static/media/bisonnette2.jpg": "./static/media/bisonnette2.e690ace8.jpg",
@@ -24,10 +24,10 @@
     "static/media/qub-musique.png": "./static/media/qub-musique.c6606524.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.045c429a.js",
+    "static/js/runtime-main.25374d25.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5650a305.chunk.js",
-    "static/css/main.118d050c.chunk.css",
-    "static/js/main.4dcc7ae2.chunk.js"
+    "static/js/2.f36dc9fd.chunk.js",
+    "static/css/main.27f190fb.chunk.css",
+    "static/js/main.0976c74a.chunk.js"
   ]
 }
