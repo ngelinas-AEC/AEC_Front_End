@@ -29,7 +29,7 @@ export class Accueil extends React.Component  {
                         marginBottom: '2rem',
                         marginTop: '2.5rem'
                     }}>
-                        <h1 style={{fontSize: '2.3rem', 
+                        <h1 style={{fontSize: '1.8rem', 
                                     color: "#ffffff", 
                                     fontWeight: 'bold', 
                                     paddingLeft: '1rem'}}>
