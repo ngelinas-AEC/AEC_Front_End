@@ -22,7 +22,11 @@ export class Album extends React.Component  {
             onClick={()=>this.handleOnClick()} 
             style={{transform: `${this.state.hovered ? 'scale(1.02,1.02)' : 'scale(1,1)'}`}}
             > 
-                <Card className="h-100 bg-light">
+                <Card className="h-100 bg-light" 
+                onMouseOver={() => this.setState({hovered: true})}
+                onMouseOut={() => this.setState({hovered: false})} 
+                style={{cursor:  this.state.hovered ? 'pointer' : 'null'}}
+                >
                     <Card.Img   variant="top" src={this.props.src}   />
                     <Card.Body >
                         <Card.Title >{this.props.title}</Card.Title>

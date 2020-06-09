@@ -21,7 +21,7 @@ export class Accueil extends React.Component  {
         }
     }
 
-    afficheTitre(){
+    afficherEntete(){
         if(this.state.accueil===true){
             return (
                     <Row style={{
@@ -72,12 +72,12 @@ export class Accueil extends React.Component  {
         if (this.state.connected){
         return ( <Container >
                     {this.header()}
-                    {this.afficheTitre()}
+                    {this.afficherEntete()}
                     <Catalogue afficheAccueil={() => this.setState({accueil: true, recherche:""})} recherche={this.state.recherche} onClick={() => this.setState({ accueil: false})}/>
                 </Container>
                 );
         } else {
-            return <Connexion handleConexion={(connecte) => this.setState({ connected: connecte })} />;
+            return <Connexion handleConexion={(connect) => this.setState({ connected: connect })} />;
         }
     }
 
