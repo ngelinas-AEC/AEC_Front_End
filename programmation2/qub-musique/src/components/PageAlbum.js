@@ -82,10 +82,10 @@ export class PageAlbum extends React.Component  {
                 </Row>
                 <Row className="text-white mt-5 no-gutters">
                     <Col lg="12" >
-                            <h1 className='mb-5'>Paroles</h1>
+                        <h1 className='mb-4'>Paroles</h1>
                     </Col>
                     <Col lg="12" >
-                                <Paroles paroles={this.state.chanson.paroles}/>
+                        <Paroles paroles={this.state.chanson.paroles}/>
                     </Col>
                 </Row>
                 </>

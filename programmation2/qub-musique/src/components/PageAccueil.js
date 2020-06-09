@@ -49,10 +49,10 @@ export class Accueil extends React.Component  {
                     <div className="py-3 ">
                         <button style={{fontSize: '1rem', 
                                         fontWeight: 'bold', 
-                                        paddingTop: '0.75rem', 
-                                        paddingBottom: '0.75rem', 
+                                        paddingTop: '0.65rem', 
+                                        paddingBottom: '0.65rem', 
                                         marginTop: '5px',
-                                        backgroundColor: '#505050',
+                                        backgroundColor: '#404040',
                                         textAlign: 'center',                                       
                                         color: 'white',
                                         border:0,
