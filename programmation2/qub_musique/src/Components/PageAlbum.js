@@ -28,7 +28,7 @@ export class PageAlbum extends React.Component  {
                 </Row>
                 <Row>
                     <Col  xl="4" lg="4" md="6" sm="12" >
-                        <img src={this.props.album.src} className="fluid"/>
+                        <img src={this.props.album.src} alt="album" className="fluid"/>
                     </Col>
                     
                     <Col xl="6" lg="6" md="6" sm="12" className="text-white d-flex align-items-begin flex-column justify-content-end">
