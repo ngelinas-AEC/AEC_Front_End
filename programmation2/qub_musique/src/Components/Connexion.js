@@ -1,3 +1,6 @@
+// Connexion.js
+// Nico Gelinas
+
 import React from 'react';
 import './App/App.css';
 import Row from 'react-bootstrap/Row';  

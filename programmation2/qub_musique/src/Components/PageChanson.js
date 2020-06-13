@@ -1,3 +1,6 @@
+// PageChanson.js
+// Nico Gelinas
+
 import React from 'react';
 import Col from 'react-bootstrap/Col'; 
 
