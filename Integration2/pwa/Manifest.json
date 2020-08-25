@@ -1,0 +1,27 @@
+{
+   "short_name":"Calc",
+   "name":"Calculator",
+   "description":"TMS WEB Core Calculator",
+   "start_url":"https://www.tmssoftware.com/calc/index.html",
+   "display":"fullscreen",
+   "theme_color":"#FFFFFF",
+   "background_color":"#FFFFFF",
+   "icons":
+   [
+    {
+      "src": "IconResLow.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "IconResMid.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "IconResHigh.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+   ]
+}
