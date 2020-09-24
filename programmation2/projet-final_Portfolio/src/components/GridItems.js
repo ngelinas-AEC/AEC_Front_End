@@ -1,6 +1,6 @@
 // <!-- MenuItems.js -->
 // <!-- Programmation Web 2 & Interfaces Web 2 -->
-// <!-- Projet Final par Nico Gelinas -->
+// <!-- Nico Gelinas -->
 
 export const GridItems = [
 

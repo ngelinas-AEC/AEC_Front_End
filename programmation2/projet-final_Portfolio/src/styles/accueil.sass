@@ -1,9 +1,6 @@
 // <!-- accueil.sass -->
 // <!-- Programmation Web 2 & Interfaces Web 2 -->
-// <!-- Projet Final par Nico Gelinas -->
-
-  
-@import './variables.sass';
+// <!-- Nico Gelinas -->
 
 .main-content
   padding-top: 2%;
@@ -12,33 +9,4 @@
   display: grid;
   min-height: 100vh;
 
-.portfolio
-  display: grid;
-  height: 80%;
-  grid-template-rows: repeat(12, 1fr);
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 16px;
 
-.portfolio-item
-  background-color: $portfolioBackground;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    
-
-//portfolio grid
-@mixin grid($row,$column)
-  grid-row: span $row;
-  grid-column: span $column;
-
-//portfolio images and backgrounds
-@mixin images-portfolio
-  background-blend-mode: multiply
-  background-size: cover
-  background-position: top left
-  transition: all ease-in-out 300ms
-  filter: grayscale(0%)
-@mixin hover
-  &:hover
-    filter: grayscale(80%)
-    

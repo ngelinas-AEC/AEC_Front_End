@@ -1,15 +1,14 @@
-// <!-- Menu.js -->
+// <!-- Header.js -->
 // <!-- Programmation Web 2 & Interfaces Web 2 -->
-// <!-- Projet Final par Nico Gelinas -->
+// <!-- Nico Gelinas -->
 
 import React from "react"; 
 import {NavLink} from 'react-router-dom' 
 import {Link} from 'react-router-dom' 
 import '../styles/header.sass';
-import { ReactComponent as Logo } from './logo.svg';
 import Button from 'react-bootstrap/Button';
 
-export class Menu extends React.Component { 
+export class Header extends React.Component { 
     constructor(props) {
         super(props);
         this.state = {clicked: false}
@@ -22,9 +21,7 @@ export class Menu extends React.Component {
 
 render() 
 { 
-
-    const MenuItems = [
-        
+    const MenuItems = [       
         {
             title: 'Accueil',
             url:'/Accueil',
@@ -39,8 +36,7 @@ render()
             title: 'Portfolio',
             url:'/Portfolio',
             cName: 'nav-links'
-        }
-       
+        }       
     ]    
 
 return ( 
@@ -49,7 +45,7 @@ return (
 
                 <Link exact='true' to="/Accueil">
                 
-                <h2 className='navbar-logo'><spam><Logo /></spam>Portfolio Chalets</h2>
+                <h2 className='navbar-logo'>Portfolio Chalets</h2>
                 </Link>
                 
                 <div className='menu-icon' onClick={this.handleClick}>
@@ -60,14 +56,12 @@ return (
                     
                         {MenuItems.map((item,index)=>{
                             return(
-                                
-                                    <NavLink key={index} className={item.cName} to={item.url} onClick={this.handleClick}>
-                                    {item.title}    
-                                    </NavLink>
-                                
+                                <NavLink key={index} className={item.cName} to={item.url} onClick={this.handleClick}>
+                                {item.title}    
+                                </NavLink>
                             )
                         })}
-                      <Button variant="primary" size="lg"  id="boutonInstall"> Installer l'application </Button> 
+                      <Button className='menu-buttonpwa' variant="primary" size="lg"  id="butInstall"> Installer PWA </Button> 
                 </ul>
         </nav>
        

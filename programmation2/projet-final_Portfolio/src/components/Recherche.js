@@ -1,6 +1,6 @@
 // <!-- Recherche.js -->
 // <!-- Programmation Web 2 & Interfaces Web 2 -->
-// <!-- Projet Final par Nico Gelinas -->
+// <!-- Nico Gelinas -->
 
 import React from 'react';
 import Form from 'react-bootstrap/Form';  

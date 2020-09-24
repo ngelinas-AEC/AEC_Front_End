@@ -1,6 +1,6 @@
 // <!-- Suppression.js -->
 // <!-- Programmation Web 2 & Interfaces Web 2 -->
-// <!-- Projet Final par Nico Gelinas -->
+// <!-- Nico Gelinas -->
 
 
 import React from "react";
@@ -23,7 +23,7 @@ export class Suppression extends React.Component {
     }); 
 
     if(response.ok){ 
-      toast.error("Fiche supprimé!");
+      toast.error("Fiche chalet supprimé!");
       
       this.props.history.push("/PortfolioRefresh");
 

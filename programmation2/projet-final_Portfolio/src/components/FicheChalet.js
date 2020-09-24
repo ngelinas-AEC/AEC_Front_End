@@ -1,6 +1,6 @@
 // <!-- FicheChalet.js -->
 // <!-- Programmation Web 2 & Interfaces Web 2 -->
-// <!-- Projet Final par Nico Gelinas -->
+// <!-- Nico Gelinas -->
 
 import React from "react";
 import Container from 'react-bootstrap/Container';
@@ -9,7 +9,6 @@ import Col from 'react-bootstrap/Col';
 import {Card} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import {Suppression} from "./Suppression";
 import {API} from "../Api_constante";
 
 export class FicheChalet extends React.Component {
