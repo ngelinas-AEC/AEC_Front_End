@@ -61,7 +61,7 @@ return (
                                 </NavLink>
                             )
                         })}
-                      <Button className='menu-buttonpwa' variant="primary" size="lg"  id="butInstall"> Installer PWA </Button> 
+                      <button className='menu-buttonpwa' variant="primary" size="lg"  id="butInstall" hidden> Installer la PWA </button> 
                 </ul>
         </nav>
        
