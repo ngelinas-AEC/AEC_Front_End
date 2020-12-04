@@ -13,8 +13,9 @@ export class FormulaireForfaitComponent implements OnInit {
   villesDepartControl = new FormControl();
   filteredDestinations:  Observable<string[]>;
   filteredVillesDepart:  Observable<string[]>;
-  villesDepart: string[] = ['Montréal', 'Toronto', 'Québec', 'Ottawa'];
-  destinations: string[] = ['Méxique', 'Cuba', 'République dominicaine', 'Costa Rica', 'Guadaloupe', 'Haïti','Jamaïque', 'Martinique','Honduras'];
+  
+  villesDepart: string[] = ['Montréal', 'Québec'];
+  destinations: string[] = ['Mexique', 'Costa Rica', 'Cuba'];
 
 
   ngOnInit() {
@@ -32,7 +33,6 @@ export class FormulaireForfaitComponent implements OnInit {
 
   private filterDestinations(value: string): string[] {
     const filterValue = value.toLowerCase();
-
     return this.destinations.filter(destination => destination.toLowerCase().includes(filterValue));
   }
 

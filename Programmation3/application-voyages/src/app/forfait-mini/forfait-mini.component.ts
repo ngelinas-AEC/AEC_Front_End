@@ -1,13 +1,12 @@
 import { Component,  Input, OnInit } from '@angular/core';
-
 import { Forfait } from '../forfait';
 
 @Component({
-  selector: 'app-mini-forfait',
-  templateUrl: './mini-forfait.component.html',
-  styleUrls: ['./mini-forfait.component.css']
+  selector: 'app-forfait-mini',
+  templateUrl: './forfait-mini.component.html',
+  styleUrls: ['./forfait-mini.component.css']
 })
-export class MiniForfaitComponent implements OnInit {
+export class ForfaitMiniComponent implements OnInit {
   @Input() forfait: Forfait;
 
   constructor() { }

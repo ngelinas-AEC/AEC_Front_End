@@ -10,6 +10,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -18,21 +20,16 @@ import { AppComponent } from './app.component';
 import { EtoilesComponent } from './etoiles/etoiles.component';
 import { ForfaitCompletComponent } from './forfait-complet/forfait-complet.component';
 import { FormulaireForfaitComponent } from './formulaire-forfait/formulaire-forfait.component';
-import { MiniForfaitComponent } from './mini-forfait/mini-forfait.component';
+import { ForfaitMiniComponent } from './forfait-mini/forfait-mini.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FormulaireRechercheComponent } from './formulaire-recherche/formulaire-recherche.component';
-
-
-
-
-
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
-    MiniForfaitComponent,
+    ForfaitMiniComponent,
     ForfaitCompletComponent,
     FormulaireForfaitComponent,
     ToolbarComponent,
@@ -54,9 +51,13 @@ import { FormulaireRechercheComponent } from './formulaire-recherche/formulaire-
     MatSliderModule,
     MatIconModule,
     MatToolbarModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

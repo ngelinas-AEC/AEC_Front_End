@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MiniForfaitComponent } from './mini-forfait.component';
+import { MiniForfaitComponent } from './forfait-mini.component';
 
 describe('MiniForfaitComponent', () => {
   let component: MiniForfaitComponent;

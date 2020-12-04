@@ -1,15 +1,8 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-formulaire-recherche',
   templateUrl: './formulaire-recherche.component.html',
   styleUrls: ['./formulaire-recherche.component.css']
 })
-export class FormulaireRechercheComponent implements OnInit {
-  constructor() { }
-
-  ngOnInit(): void {
-
-  }
-
-}
+export class FormulaireRechercheComponent {}
