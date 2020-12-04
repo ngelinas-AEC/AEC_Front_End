@@ -17,7 +17,7 @@
 
   <form class="formulaire-form">
     <mat-form-field class="example-full-width">
-      <mat-label>Ville de destination</mat-label>
+      <mat-label>Ville de départ</mat-label>
       <input type="text" required minlength="2" placeholder="Choisissez la ville de départ" aria-label="Number" matInput
         [formControl]="villesDepartControl" [matAutocomplete]="autocomplete2">
       <mat-autocomplete #autocomplete2="matAutocomplete">
@@ -38,7 +38,7 @@
   <form class="formulaire-form">
     <mat-form-field class="example-full-width">
       <mat-label>Coordonnées </mat-label>
-      <input type="text" required minlength="2" matInput placeholder="coordonnees">
+      <input type="text" matInput required minlength="2" placeholder="coordonnees">
     </mat-form-field>
   </form>
 
@@ -51,14 +51,68 @@
   <form class="formulaire-form">
     <mat-form-field class="example-full-width">
       <mat-label>Nombre de chambres</mat-label>
-      <input matInput required type="number" min="1" placeholder="Nombre de chambres">
+      <input type="number" matInput required min="1" placeholder="Nombre de chambres">
+    </mat-form-field>
+  </form>
+
+  <form class="formulaire-form">
+    <div style="padding: 50px; width:400px;">
+
+      <mat-card>
+    
+        <mat-card-title>Caractéristiques</mat-card-title>
+   
+        <mat-card-content>
+    
+          <mat-list>
+    
+            
+    
+            <mat-list-item *ngFor="let item of checkbox_list">
+              <mat-checkbox
+              [(ngModel)]="item.checked"
+              [disabled]="item.disabled"
+              [labelPosition]="item.labelPosition"
+              (change)="list_change()"
+              >{{ item.name }}</mat-checkbox>
+            </mat-list-item>
+    
+          </mat-list>
+    
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </form>
+
+  <form class="formulaire-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Date de départ</mat-label>
+      <input matInput required [matDatepicker]="pickerDateDepart">
+      <mat-datepicker-toggle matSuffix [for]="pickerDateDepart"></mat-datepicker-toggle>
+      <mat-datepicker #pickerDateDepart></mat-datepicker>
+    </mat-form-field>
+  </form>
+
+  <form class="formulaire-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Date de retour</mat-label>
+      <input matInput required [matDatepicker]="pickerDateRetour">
+      <mat-datepicker-toggle matSuffix [for]="pickerDateRetour"></mat-datepicker-toggle>
+      <mat-datepicker #pickerDateRetour></mat-datepicker>
     </mat-form-field>
   </form>
 
   <form class="formulaire-form">
     <mat-form-field class="example-full-width">
       <mat-label>Prix</mat-label>
-      <input matInput required type="number" min="1" placeholder="Prix">
+      <input type="number" matInput required min="1" placeholder="Prix">
+    </mat-form-field>
+  </form>
+
+  <form class="formulaire-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Rabais</mat-label>
+      <input type="number" matInput required min="0" placeholder="Rabais">
     </mat-form-field>
   </form>
 </div>
