@@ -1,0 +1,9 @@
+<div>
+    <b>Options:</b> 
+</div>
+
+<div style="display: column ;justify-content: flex-start;flex-wrap: wrap;width: 50%;">
+    <div *ngFor="let option of options" style="margin: 5px">
+        <mat-checkbox class="example-margin" [(ngModel)]="option.selected">{{option.name}}</mat-checkbox>
+    </div>
+</div>

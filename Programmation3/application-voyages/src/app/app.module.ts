@@ -27,6 +27,12 @@ import { ForfaitMiniComponent } from './forfait-mini/forfait-mini.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FormulaireRechercheComponent } from './formulaire-recherche/formulaire-recherche.component';
+import { AcceuilComponent } from './acceuil/acceuil.component';
+import { ForfaitsXComponentComponent } from './forfaits-x-component/forfaits-x-component.component';
+import { ForfaitsYComponentComponent } from './forfaits-y-component/forfaits-y-component.component';
+import { AproposComponentComponent } from './apropos-component/apropos-component.component';
+import { AdministrationComponentComponent } from './administration-component/administration-component.component';
+import { OptionComponentComponent } from './option-component/option-component.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +43,13 @@ import { FormulaireRechercheComponent } from './formulaire-recherche/formulaire-
     FormulaireForfaitComponent,
     ToolbarComponent,
     EtoilesComponent,
-    FormulaireRechercheComponent
+    FormulaireRechercheComponent,
+    AcceuilComponent,
+    ForfaitsXComponentComponent,
+    ForfaitsYComponentComponent,
+    AproposComponentComponent,
+    AdministrationComponentComponent,
+    OptionComponentComponent
   ],
   imports: [
     BrowserModule,
